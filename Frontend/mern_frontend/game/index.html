@@ -1,0 +1,81 @@
+
+<link rel="stylesheet" href="style.css" />
+
+<body>
+  <div class="popup" id="popup-1">
+    <div class="overlay"></div>
+    <div class="content">
+      <div class="close-btn" onclick="togglePopup1()">&times;</div>
+	  <h1>Show All Products</h1>
+	  <p>View all the latest products we have to offer!!</p>
+	  <a href="http://localhost:3000/show-all-products">View All</a>
+    </div>
+  </div>
+
+  <div class="popup" id="popup-2">
+    <div class="overlay"></div>
+    <div class="content">
+      <div class="close-btn" onclick="togglePopup2()">&times;</div>
+
+      <h1>Show One Product</h1>
+      <p>View any of our products just by entering product ID.</p>
+	  <a href="http://localhost:3000/show-one-product">View One</a>
+    </div>
+  </div>
+
+  <div class="popup" id="popup-3">
+    <div class="overlay"></div>
+    <div class="content">
+      <div class="close-btn" onclick="togglePopup3()">&times;</div>
+
+      <h1>Add a new product</h1>
+      <p>Add any new product you want!!</p>
+	  <a href="http://localhost:3000/add-new-product">Add</a>
+    </div>
+  </div>
+
+  <div class="popup" id="popup-4">
+    <div class="overlay"></div>
+    <div class="content">
+      <div class="close-btn" onclick="togglePopup4()">&times;</div>
+
+      <h1>Delete any product</h1>
+      <p>Delete any product you want!!</p>
+	  <a href="http://localhost:3000/delete-one-product">Delete</a>
+    </div>
+  </div>
+
+  <div class="popup" id="popup-5">
+    <div class="overlay"></div>
+    <div class="content">
+      <div class="close-btn" onclick="togglePopup5()">&times;</div>
+
+      <h1>Update Product</h1>
+      <p>Edit any field of any product you want!!</p>
+	  <a href="http://localhost:3000/update-product">Edit Product</a>
+    </div>
+  </div>
+
+
+  <div class="popup" id="popup-6">
+    <div class="overlay"></div>
+    <div class="content">
+      <div class="close-btn" onclick="togglePopup6()">&times;</div>
+
+      <h1>View information about the websites creators!!</h1>
+      <p>Want to know more about the creators? See now</p>
+	  <a href="http://localhost:3000/about">About</a>
+    </div>
+  </div>
+
+
+  <canvas
+    id="canvas"
+    width="500"
+    height="500"
+    style="border: 1px solid #000000"
+  ></canvas>
+
+  <script src="Entities.js"></script>
+  <script src="index.js"></script>
+</body>

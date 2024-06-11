@@ -1,0 +1,91 @@
+.update-product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: beige;
+    margin-top: 20px;
+  }
+  
+  .update-product-buttons {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .prev-button, .next-button {
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .prev-button:hover, .next-button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .update-product-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .product-image {
+    width: 60%; /* increase the width of the image */
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .product-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-info div {
+    margin-bottom: 10px;
+  }
+  
+  .update-product-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-field {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: inherit; 
+    font-size: 100%;
+    box-sizing: border-box;
+    width: 100%; 
+    height: 40px;
+    outline: none; 
+}
+  
+  .update-button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .update-button:hover {
+    background-color: #3e8e41;
+  }
+
+  .product-image {
+    width: 200px; /* decrease the width of the image */
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  

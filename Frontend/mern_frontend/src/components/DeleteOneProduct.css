@@ -1,0 +1,236 @@
+/* .delete-one-product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: beige;
+    margin: 20px;
+    padding: 5px;
+  }
+  
+  .delete-one-product-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .delete-one-product-buttons button {
+    margin: 0 10px;
+  }
+  
+  .delete-one-product-checkbox {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .delete-one-product-checkbox input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-right: 8px;
+    position: relative;
+    top: 4px;
+  }
+
+  input[type="checkbox"] {
+    border: 1px solid black;
+  }
+  
+  .delete-one-product-checkbox input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #000;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    outline: none;
+    transition: 0.5s ease-in-out;
+    background-color: #fff;
+  }
+  
+  .delete-one-product-checkbox input[type="checkbox"]:checked {
+    background-color: #fff;
+    border: 1px solid #000;
+  }
+  
+
+  .delete-one-product-checkbox input[type="checkbox"]:checked:before {
+    content: "\2713";
+    display: inline-block;
+    font-size: 16px;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    position: relative;
+    top: -1px;
+    left: 1px;
+  } */
+
+
+  .delete-one-product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: beige;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .delete-one-product-checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .delete-one-product-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .delete-one-product-buttons button {
+    margin: 0 12px;
+    background-color: green;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .delete-one-product-buttons button:hover {
+    background-color: #367ae1;
+  }
+  
+  .product-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-left: 20px;
+  }
+  
+  .product-details img {
+    margin-bottom: 20px;
+    border-radius: 4px;
+    width: 230px;
+  }
+  
+  .product-details label {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .product-details br {
+    margin-bottom: 10px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+  
+
+   /* .delete-one-product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .delete-one-product-checkbox {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #444;
+  }
+  
+  .product-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .product-details img {
+    margin-bottom: 10px;
+  }
+  
+  .product-details label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .product-details br {
+    margin-bottom: 5px;
+  }
+  
+  hr {
+    width: 100%;
+    margin-top: 30px;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1));
+  }
+   */
+
+   
